@@ -1,0 +1,40 @@
+{
+	"name": "pdf-lib",
+	"description": "This app modifies pdf files",
+	"version": "0.0.1",
+	"license": "UNLICENSED",
+	"bin": {
+		"pdf-lib": "pdf_field_renamer.js",
+		"plib": "pdf_field_renamer.js"
+	},
+	"author": {
+		"name": "Hamdi Ismail",
+		"email": "hamdihismail@gmail.com",
+		"url": "http://www.hamdihismail.com"
+	},
+	"keywords": [
+		"pdf-lib",
+		"Hamdi Ismail"
+	],
+	"files": [
+		"pdf_field_renamer.js",
+		"utils"
+	],
+	"scripts": {
+		"format": "prettier --write \"./**/*.{js,json}\""
+	},
+	"dependencies": {
+		"chalk": "^4.1.2",
+		"cli-alerts": "^1.2.2",
+		"cli-handle-error": "^4.4.0",
+		"cli-handle-unhandled": "^1.1.1",
+		"cli-meow-help": "^3.1.0",
+		"cli-welcome": "^2.2.3",
+		"inquirer": "^9.2.20",
+		"meow": "^9.0.0",
+		"pdf-lib": "^1.17.1"
+	},
+	"devDependencies": {
+		"prettier": "^3.2.5"
+	}
+}
