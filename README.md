@@ -23,20 +23,20 @@ This project consists of two Node.js scripts designed to simplify PDF file manip
    git clone https://github.com/hamdihismail/PDF-editing-script-node-cli
    ```
 2. Navigate to the project directory:
-  ```bash
-  cd pdf-editing-script
-  ```
+   ```bash
+   cd pdf-editing-script
+   ```
 3. Install dependencies:
-  ```bash
-  npm install
-  ```
+   ```bash
+   npm install
+   ```
 
 ### Usage
 #### Running the Scripts
 - **Run the script using Node.js:**
-  ```bash
-  node <script_file> <path_to_pdf>
-  ```
+   ```bash
+   node <script_file> <path_to_pdf>
+   ```
 - **Replace <script_file> with either:**
 
 pdf_field_renamer.js for renaming fields.
@@ -45,22 +45,22 @@ pdf_unlocker.js for unlocking PDFs.
 **Example Commands:**
 
 - **Renaming PDF fields:**
-  ```bash
-  node pdf_field_renamer.js ./path/to/your/pdf-file.pdf
-  ```
+   ```bash
+   node pdf_field_renamer.js ./path/to/your/pdf-file.pdf
+   ```
 - **You will be prompted to:**
 
-Enter the old field name to be replaced.
-Provide new field names (Will accept a list of one or more comma-separated names. Each entry will trigger a new pdf) for renaming.
+   1. Enter the old field name to be replaced.
+   2. Provide new field names (Will accept a list of one or more comma-separated names. Each entry will trigger a new pdf) for renaming.
 
 - **Unlocking a secured PDF:**
-  ```bash
-  node pdf_unlocker.js ./path/to/your/locked-pdf-file.pdf
-  ```
+   ```bash
+   node pdf_unlocker.js ./path/to/your/locked-pdf-file.pdf
+   ```
 This will generate an unlocked version of the provided PDF.
 
 ### Project Structure
-```bash
+ ```bash
   PDF-editing-script-node-cli/
   ├── pdf_field_renamer.js   # Script for renaming PDF form fields
   ├── pdf_unlocker.js        # Script for unlocking secured PDFs
@@ -70,7 +70,7 @@ This will generate an unlocked version of the provided PDF.
   │   ├── log.js             # Logging utility
   ├── package.json           # Project dependencies and metadata
   └── README.md              # Project documentation
-```
+ ```
 
 ### Objective
 These scripts are designed to make PDF field manipulation and unlocking processes simple and efficient. They eliminate the need for specialized tools by leveraging Node.js to perform operations directly on the PDF file.
